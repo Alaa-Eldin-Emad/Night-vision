@@ -157,7 +157,7 @@ class _alarmState extends State<alarm> {
                       child: Row(
                         children: [
                           SizedBox(height: 50,
-                            width: 100,
+                            width: 90,
                             child: TextFormField(
                                 controller: startTime,
                                 focusNode: start,
@@ -210,7 +210,7 @@ class _alarmState extends State<alarm> {
                       child: Row(
                         children: [
                           SizedBox(height: 50,
-                            width: 100,
+                            width: 90,
                             child: TextFormField(
                               controller: endTime,
                               focusNode: end,
